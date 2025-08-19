@@ -1,4 +1,4 @@
-
+import { Content } from "./components/content"
 import { Footer } from "./components/footer"
 
 import { Header } from "./components/header"
@@ -7,9 +7,15 @@ import { Header } from "./components/header"
 function App() {
   return (
     <>
-      <Footer />
-
       <Header/>
+      <main>
+        <Content 
+          title="Aula de revisão" content="Essa aula é massa"
+        />
+      </main>
+      
+
+      <Footer />
     </>
   
 )
