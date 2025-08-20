@@ -1,9 +1,9 @@
-interface ContProps {
+interface ContentProps {
     title: string
     content: string
 }
 
-export function Content(props) {
+export function Content(props: ContentProps) {
     return (
         
 
