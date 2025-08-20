@@ -1,10 +1,21 @@
+import { Content } from "./components/content"
+import { Footer } from "./components/footer"
+
+import { Header } from "./components/header"
+
+
 function App() {
   return (
     <>
-      <h1>Revisão cp4</h1>
+      <Header/>
+      <main>
+        <Content 
+          title="Aula de revisão" content="Essa aula é massa"
+        />
+      </main>
+      
 
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti explicabo maxime facere ratione repudiandae, sint ex consequuntur atque fugiat suscipit! Sapiente id illo cupiditate nulla dolorem, similique iusto distinctio.</p>
-
+      <Footer />
     </>
   
 )
