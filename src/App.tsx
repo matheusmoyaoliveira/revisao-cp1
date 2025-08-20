@@ -1,3 +1,5 @@
+import { Footer } from "./components/footer"
+
 function App() {
   return (
     <>
@@ -5,6 +7,7 @@ function App() {
 
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti explicabo maxime facere ratione repudiandae, sint ex consequuntur atque fugiat suscipit! Sapiente id illo cupiditate nulla dolorem, similique iusto distinctio.</p>
 
+      <Footer />
     </>
   
 )
